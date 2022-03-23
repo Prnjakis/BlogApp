@@ -18,6 +18,7 @@
 ---
 - Java
 - Spring Boot 
+- Sprin Mail
 - Spring Security
 - Spring Data
 - Thymeleaf
