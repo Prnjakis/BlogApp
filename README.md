@@ -134,7 +134,7 @@ main
 | api/comment                          | add Comment           | POST   |
 | api/comment                          | delete Comment        | DELETE |
 | api/post                             | update Post           | PUT    |
-| api/post                             | add new Post          | POST   |
+| api/post                             | add Post              | POST   |
 | api/post                             | delete Post           | DELETE |
 | api/register                         | registerUser          | GET    |
 | api/tag                              | add Tag               | GET    |
@@ -154,7 +154,7 @@ main
 | /post/delete/{id}                    | delete Post           | DELETE |
 | /post/edit/{id}                      | edit Post             | GET    |
 | /post/edit/{id}                      | update Post           | POST   |
-| /post/{id}                           | gte post              | GET    |
+| /post/{id}                           | get post              | GET    |
 | /post/{id}/attachment/delete/{attId} | delete Attachment     | GET    |
 | /post/{id}/comment/delete/{commId}   | delete Comment        | GET    |
 | /post/{id}/comment/{cId}             | edit Comment          | GET    |
