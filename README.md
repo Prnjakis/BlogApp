@@ -124,43 +124,43 @@ main
 ### API Endpoints
 ---
 
-| endpoint                              | description           | method |
-|---------------------------------------|-----------------------|--------|
-| /api/attachment                       | add Attachment        | POST   |
-| /api/attachment                       | delete Attachment     | DELETE |
-| /api/attachment/{id}                  | download Attachment   | GET    |
-| /api/comment                          | update Comment        | PUT    |
-| /api/comment                          | add Comment           | POST   |
-| /api/comment                          | delete Comment        | DELETE |
-| /api/post                             | update Post           | PUT    |
-| /api/post                             | add new Post          | POST   |
-| /api/post                             | delete Post           | DELETE |
-| /api/register                         | registerUser          | GET    |
-| /api/tag                              | add Tag               | GET    |
+| endpoint                             | description           | method |
+|--------------------------------------|-----------------------|--------|
+| api/attachment                       | add Attachment        | POST   |
+| api/attachment                       | delete Attachment     | DELETE |
+| api/attachment/{id}                  | download Attachment   | GET    |
+| api/comment                          | update Comment        | PUT    |
+| api/comment                          | add Comment           | POST   |
+| api/comment                          | delete Comment        | DELETE |
+| api/post                             | update Post           | PUT    |
+| api/post                             | add new Post          | POST   |
+| api/post                             | delete Post           | DELETE |
+| api/register                         | registerUser          | GET    |
+| api/tag                              | add Tag               | GET    |
 
 ### Web Endpoints
 ---
 
-| endpoint                              | description           | method |
-|---------------------------------------|-----------------------|--------|
-| /                                     | show main page        | GET    |
-| /add_comment                          | add Comment           | POST   |
-| /add_post                             | add Post              | POST   |
-| /author/{id}                          | author Window         | GET    |
-| /author/{id}/add_comment              | add Comment           | POST   |
-| /files/{filename}                     | serve File            | GET    |
-| /login                                | login                 | GET    |
-| /post/delete/{id}                     | delete Post           | DELETE |
-| /post/edit/{id}                       | edit Post             | GET    |
-| /post/edit/{id}                       | update Post           | POST   |
-| /post/{id}                            | post                  | GET    |
-| /post/{id}/attachment/delete/{attId}  | delete Attachment     | GET    |
-| /post/{id}/comment/delete/{commId}    | delete Comment        | GET    |
-| /post/{id}/comment/{cId}              | edit Comment          | GET    |
-| /post/{id}/comment/{commId}           | update Post           | POST   |
-| /post/{post_id}/add_comment           | addComment            | POST   |
-| /register                             | showForm              | GET    |
-| /register                             | registration Author   | POST   |
+| endpoint                             | description           | method |
+|--------------------------------------|-----------------------|--------|
+| /                                    | show main page        | GET    |
+| /add_comment                         | add Comment           | POST   |
+| /add_post                            | add Post              | POST   |
+| /author/{id}                         | author Window         | GET    |
+| /author/{id}/add_comment             | add Comment           | POST   |
+| /files/{filename}                    | serve File            | GET    |
+| /login                               | login                 | GET    |
+| /post/delete/{id}                    | delete Post           | DELETE |
+| /post/edit/{id}                      | edit Post             | GET    |
+| /post/edit/{id}                      | update Post           | POST   |
+| /post/{id}                           | post                  | GET    |
+| /post/{id}/attachment/delete/{attId} | delete Attachment     | GET    |
+| /post/{id}/comment/delete/{commId}   | delete Comment        | GET    |
+| /post/{id}/comment/{cId}             | edit Comment          | GET    |
+| /post/{id}/comment/{commId}          | update Post           | POST   |
+| /post/{post_id}/add_comment          | addComment            | POST   |
+| /register                            | showForm              | GET    |
+| /register                            | registration Author   | POST   |
 
 ## Screenshots
 ---
