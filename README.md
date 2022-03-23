@@ -154,7 +154,7 @@ main
 | /post/delete/{id}                    | delete Post           | DELETE |
 | /post/edit/{id}                      | edit Post             | GET    |
 | /post/edit/{id}                      | update Post           | POST   |
-| /post/{id}                           | post                  | GET    |
+| /post/{id}                           | gte post              | GET    |
 | /post/{id}/attachment/delete/{attId} | delete Attachment     | GET    |
 | /post/{id}/comment/delete/{commId}   | delete Comment        | GET    |
 | /post/{id}/comment/{cId}             | edit Comment          | GET    |
