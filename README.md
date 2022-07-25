@@ -153,12 +153,12 @@ main
 | /login                               | login                 | GET    |
 | /post/delete/{id}                    | delete Post           | DELETE |
 | /post/edit/{id}                      | edit Post             | GET    |
-| /post/edit/{id}                      | update Post           | POST   |
+| /post/edit/{id}                      | update Post           | PUT    |
 | /post/{id}                           | get post              | GET    |
 | /post/{id}/attachment/delete/{attId} | delete Attachment     | GET    |
 | /post/{id}/comment/delete/{commId}   | delete Comment        | GET    |
-| /post/{id}/comment/{cId}             | edit Comment          | GET    |
-| /post/{id}/comment/{commId}          | update Post           | POST   |
+| /post/{id}/comment/{cId}             | edit Comment          | PUT    |
+| /post/{id}/comment/{commId}          | update Post           | PUT    |
 | /post/{post_id}/add_comment          | addComment            | POST   |
 | /register                            | showForm              | GET    |
 | /register                            | registration Author   | POST   |
